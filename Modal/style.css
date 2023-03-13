@@ -1,0 +1,48 @@
+
+button {
+    position: relative;
+    z-index: 9999;
+}
+
+.modal__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: #33333381;
+    z-index: 50;
+    opacity: 0;
+    transition: opacity .5s;
+    pointer-events: none;
+}
+
+.modal__overlay-active {
+    opacity: 1;
+    transition: opacity .5s;
+    pointer-events: all;
+}
+
+.modal__position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.modal__window {
+    height: 400px;
+    width: 400px;
+    border-radius: 12px;
+    background: #fff;
+    scale: 0;
+}
+
+.modal__window-active {
+    scale: 1;
+    transition: scale .5s;
+}
+
+.modal__content {
+    padding: 40px;
+}
