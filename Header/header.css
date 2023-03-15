@@ -6,13 +6,31 @@
 
 .m_header {
     position: fixed;
+    padding: 20px;
     top: 0;
-    height: 80px;
     width: 100%;
     background: #000;
+    display: none;
 }
 
+.m_header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-@media screen {
-    
+.m_header__logo {
+    color: #fff;
+}
+
+.m_header__toggle {
+    position: fixed
+    right: 50px;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .m_header {
+        display: block;
+    }
 }
