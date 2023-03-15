@@ -12,3 +12,5 @@ git push -u origin main
 git remote add origin git@github.com:bambaleilaGH/Parts.git
 git branch -M main
 git push -u origin main
+
+https://html5css.ru/howto/howto_js_sidenav.php?ysclid=lf9uhrbkcz655336060 - меню
